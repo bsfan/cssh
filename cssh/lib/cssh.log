@@ -1,0 +1,5 @@
+cssh:127.0.0.1 ssh checking FAILED: [Errno 111] Connection refused
+cssh:127.0.0.3 ssh checking FAILED: [Errno 111] Connection refused
+cssh:127.0.0.2 ssh checking FAILED: [Errno 111] Connection refused
+cssh:3 Jobs 0 Done. 
+run time: 0.03 Sec
