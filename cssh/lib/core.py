@@ -54,7 +54,7 @@ def checkSSH(HOST, PORT):
         s.connect((HOST, PORT))
         s.send('Hello')
         data = s.recv(64)
-        pos = data.find('OpenSSH')
+        pos = data.find('SSH')
         if pos < 0:
             return False, str('not a OpenSSH service ,please check')
         s.close()
